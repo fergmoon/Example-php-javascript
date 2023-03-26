@@ -91,6 +91,23 @@ switch ($cajero) {
         break;
 }
 
+function mifuncion(){
+    echo"<br>";
+    echo "Ejecutando mi función() !!";
+}
+mifuncion();
+
+//ejemplo2
+
+function operacion() {
+
+    $i = 10;
+    $a = 10;
+    $ia = $i+$a;
+    echo"<br>";
+    echo($ia);
+}
+operacion();
 
 
 
